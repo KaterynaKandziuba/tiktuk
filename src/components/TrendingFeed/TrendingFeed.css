@@ -1,0 +1,24 @@
+.posts {
+    margin: 50px 250px;
+}
+
+.count {
+    text-align: center;
+}
+
+.count button {
+    padding: 4px 20px;
+    font-size: 16px;
+    background-color: tomato;
+    color: white;
+    border-radius: 8000px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition-property: background-color color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.count button:hover {
+    background-color: gray;
+}
