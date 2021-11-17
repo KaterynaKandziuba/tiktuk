@@ -2,9 +2,10 @@
 Структура сторінки передбачає хедінг та стрічку постів.
 
 Пост складався з наступних компонентів:
+
 FeedItemHeading: Avatar та ім'я користувача
 
-nFeedItemVideo
+FeedItemVideo
 
 FeedItemDescription
 
