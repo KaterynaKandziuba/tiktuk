@@ -1,7 +1,8 @@
-import commentsList from "../../../../../mockData/commentsData.js"
-import Comment from "./comment/comment"
+import Comment from "./Comment/Comment"
 
-export const Comments = () => commentsList.map((item) => {
+export const Comments = ({
+    comments
+}) => comments.map((item) => {
         return(
                 <div>
                     <Comment 
