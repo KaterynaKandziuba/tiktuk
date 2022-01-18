@@ -3,11 +3,6 @@ import FeedItemFooter from "../FeedItemComponents/FeedItemFooter/Footer"
 import FeedItemHeading from "../FeedItemComponents/FeedItemHeader/Header"
 import FeedItemDescription from "../FeedItemComponents/FeedItemVideoPost/Description"
 import FeedItemVideo from "../FeedItemComponents/FeedItemVideoPost/Video"
-// import { FeedItemFooter } from "../TrendingFeed/components/Footer/FeedItemFooter"
-// import { FeedItemHashtag } from "../TrendingFeed/components/Hashtags/Hashtags"
-// import { FeedItemHeading } from "../TrendingFeed/components/Heading/Heading"
-// import { FeedItemDescription } from "../TrendingFeed/components/Post/Post"
-// import { FeedItemVideo } from "../TrendingFeed/components/Video/Video"
 
 export const FeedItem = (
     {
@@ -37,7 +32,6 @@ export const FeedItem = (
             />
             <FeedItemVideo videoUrl={videoUrl} />
             <FeedItemDescription description={description} />
-            {/* <FeedItemHashtag hashtags={hashtags}/> */}
             <FeedItemFooter likes={likes} comments={comments} />
         </Card>
     )
